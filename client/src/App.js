@@ -1,11 +1,32 @@
 import React from "react";
 
-function App() {
+import { connect } from "react-redux";
+
+function App(props) {
+  const { products } = props;
+
   return (
     <div>
-      <h1>Hello World</h1>
+      <ul>
+        {products.map((product, idx) => {
+          return (
+            <li key={idx}>
+              <div>id: {product.id}</div>
+              <div>name: {product.name}, </div>
+              <div>price: {product.price}</div>
+              <div>tags: {product.tags}</div>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }
 
-export default App;
+const mapStateToProps = (state) => ({
+  products: state.products,
+});
+
+const mapDispatchToProps = {};
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
