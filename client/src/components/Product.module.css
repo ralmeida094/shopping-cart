@@ -1,0 +1,21 @@
+.container {
+  width: 250px;
+}
+
+.productImg {
+  width: 250px;
+  height: 350px;
+}
+
+/* PRICE */
+.dollarSign {
+  font-size: 1rem;
+}
+
+.dollars {
+  font-size: 1.25rem;
+}
+
+.cents {
+  font-size: 1rem;
+}

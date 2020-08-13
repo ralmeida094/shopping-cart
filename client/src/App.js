@@ -2,6 +2,8 @@ import React from "react";
 
 import { connect } from "react-redux";
 
+import Product from "./components/Product";
+
 function App(props) {
   const { products } = props;
 
@@ -9,14 +11,7 @@ function App(props) {
     <div>
       <ul>
         {products.map((product, idx) => {
-          return (
-            <li key={idx}>
-              <div>id: {product.id}</div>
-              <div>name: {product.name}, </div>
-              <div>price: {product.price}</div>
-              <div>tags: {product.tags}</div>
-            </li>
-          );
+          return <Product key={idx} {...product} />;
         })}
       </ul>
     </div>
@@ -24,7 +19,7 @@ function App(props) {
 }
 
 const mapStateToProps = (state) => ({
-  products: state.products,
+  products: state.shelf,
 });
 
 const mapDispatchToProps = {};
