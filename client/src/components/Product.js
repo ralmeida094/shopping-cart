@@ -10,7 +10,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import styles from "./Product.module.css";
 
-export const Product = (props) => {
+function Product(props) {
   const { className, id, name, price, tags } = props;
 
   const classes = {
@@ -67,7 +67,7 @@ export const Product = (props) => {
       </Card.Body>
     </Card>
   );
-};
+}
 
 const mapStateToProps = (state) => ({});
 

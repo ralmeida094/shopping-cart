@@ -1,27 +1,13 @@
 import React from "react";
 
-import { connect } from "react-redux";
+import ProductsList from "./components/ProductsList";
 
-import Product from "./components/Product";
-
-function App(props) {
-  const { products } = props;
-
+function App() {
   return (
-    <div>
-      <ul>
-        {products.map((product, idx) => {
-          return <Product key={idx} {...product} />;
-        })}
-      </ul>
-    </div>
+    <React.Fragment>
+      <ProductsList />
+    </React.Fragment>
   );
 }
 
-const mapStateToProps = (state) => ({
-  products: state.shelf,
-});
-
-const mapDispatchToProps = {};
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;
