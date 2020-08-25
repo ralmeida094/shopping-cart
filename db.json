@@ -1,63 +1,60 @@
 {
-  "stickers": [
+  "products": [
     {
       "id": 1,
       "title": "Radiate Positivity Sticker",
       "author": "Brittany Hefren",
       "price": "1.39",
-      "image_src": "https://ih1.redbubble.net/image.489326050.6013/st,small,507x507-pad,600x600,f8f8f8.u3.jpg",
-      "description": "sticker"
+      "imageSrc": "https://ih1.redbubble.net/image.489326050.6013/st,small,507x507-pad,600x600,f8f8f8.u3.jpg",
+      "type": "sticker"
     },
     {
       "id": 2,
       "title": "together Sticker",
       "author": "Michelle  Borjon",
       "price": "1.56",
-      "image_src": "https://ih1.redbubble.net/image.200852613.6100/st,small,507x507-pad,600x600,f8f8f8.u4.jpg",
-      "description": "sticker"
+      "imageSrc": "https://ih1.redbubble.net/image.200852613.6100/st,small,507x507-pad,600x600,f8f8f8.u4.jpg",
+      "type": "sticker"
     },
     {
       "id": 3,
       "title": "Street Cats Sticker",
       "author": "Hillary White",
       "price": "2.08",
-      "image_src": "https://ih1.redbubble.net/image.785374659.2310/st,small,507x507-pad,600x600,f8f8f8.u1.jpg",
-      "description": "sticker"
-    }
-  ],
-
-  "phone_cases": [
-    {
-      "id": 1,
-      "title": "Trex Cactus Offline Samsung Galaxy Snap Case",
-      "author": "gengns",
-      "price": "25.25",
-      "image_src": "https://ih1.redbubble.net/image.1098817871.5785/icr,samsung_galaxy_s10_snap,back,a,x600-pad,600x600,f8f8f8.1.jpg",
-      "description": "phone case"
-    },
-    {
-      "id": 2,
-      "title": "Hello World - Many Programming Languages (dark) Samsung Galaxy Snap Case",
-      "author": "kiprobinson",
-      "price": "25.25",
-      "image_src": "https://ih1.redbubble.net/image.556752116.2192/icr,samsung_galaxy_s10_snap,back,a,x600-pad,600x600,f8f8f8.1u3.jpg",
-      "description": "phone case"
-    },
-    {
-      "id": 3,
-      "title": "Code iPhone Soft Case",
-      "author": "findingNull",
-      "price": "18.03",
-      "image_src": "https://ih1.redbubble.net/image.324273040.6500/icr,iphone_11_soft,back,a,x600-pad,600x600,f8f8f8.u1.jpg",
-      "description": "phone case"
+      "imageSrc": "https://ih1.redbubble.net/image.785374659.2310/st,small,507x507-pad,600x600,f8f8f8.u1.jpg",
+      "type": "sticker"
     },
     {
       "id": 4,
+      "title": "Trex Cactus Offline Samsung Galaxy Snap Case",
+      "author": "gengns",
+      "price": "25.25",
+      "imageSrc": "https://ih1.redbubble.net/image.1098817871.5785/icr,samsung_galaxy_s10_snap,back,a,x600-pad,600x600,f8f8f8.1.jpg",
+      "type": "phone case"
+    },
+    {
+      "id": 5,
+      "title": "Hello World - Many Programming Languages (dark) Samsung Galaxy Snap Case",
+      "author": "kiprobinson",
+      "price": "25.25",
+      "imageSrc": "https://ih1.redbubble.net/image.556752116.2192/icr,samsung_galaxy_s10_snap,back,a,x600-pad,600x600,f8f8f8.1u3.jpg",
+      "type": "phone case"
+    },
+    {
+      "id": 6,
+      "title": "Code iPhone Soft Case",
+      "author": "findingNull",
+      "price": "18.03",
+      "imageSrc": "https://ih1.redbubble.net/image.324273040.6500/icr,iphone_11_soft,back,a,x600-pad,600x600,f8f8f8.u1.jpg",
+      "type": "phone case"
+    },
+    {
+      "id": 7,
       "title": "JavaScript grey Samsung Galaxy Snap Case",
       "author": "zoerab",
       "price": "24.20",
-      "image_src": "https://ih1.redbubble.net/image.380875851.3023/icr,samsung_galaxy_s10_snap,back,a,x600-pad,600x600,f8f8f8.1.jpg",
-      "description": "phone case"
+      "imageSrc": "https://ih1.redbubble.net/image.380875851.3023/icr,samsung_galaxy_s10_snap,back,a,x600-pad,600x600,f8f8f8.1.jpg",
+      "type": "phone case"
     }
   ]
 }
