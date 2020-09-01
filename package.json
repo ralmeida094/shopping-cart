@@ -1,9 +1,9 @@
 {
-  "name": "client",
+  "name": "shopping-cart",
   "version": "1.0.0",
   "author": "Rafael Almeida",
   "license": "MIT",
-  "description": "",
+  "description": "A simple shopping cart built with React.",
   "keywords": [],
   "scripts": {
     "start": "react-scripts start",
@@ -39,7 +39,5 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
-  "devDependencies": {
-    "faker": "^4.1.0"
-  }
+  "devDependencies": {}
 }
