@@ -1,0 +1,25 @@
+.shelf {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 14rem;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .shelf {
+    grid-template-columns: repeat(2, 14rem);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .shelf {
+    grid-template-columns: repeat(3, 14rem);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .shelf {
+    grid-template-columns: repeat(4, 14rem);
+  }
+}

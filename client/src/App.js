@@ -1,15 +1,15 @@
 import React from "react";
 
-import CustomNavbar from "./components/CustomNavbar";
-import ProductsList from "./components/ProductsList";
-import ShoppingCart from "./components/ShoppingCart";
+import Navbar from "components/navbar/Navbar";
+import Shelf from "components/shelf/Shelf";
+import Cart from "components/cart/Cart";
 
 function App() {
   return (
     <React.Fragment>
-      <CustomNavbar />
-      <ProductsList />
-      <ShoppingCart />
+      <Navbar />
+      <Shelf />
+      <Cart />
     </React.Fragment>
   );
 }

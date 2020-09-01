@@ -1,0 +1,23 @@
+.productContainer {
+  width: 14rem;
+}
+
+.productImage {
+  width: 14rem;
+  height: 14rem;
+}
+
+.productDetails {
+  margin: 0.75rem 0;
+}
+
+.productText {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0.25rem 0;
+}
+
+.addToCartButton {
+  width: 100%;
+}
